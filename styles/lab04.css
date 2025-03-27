@@ -32,7 +32,6 @@ h1, h2, h3 { font-family: Arial, sans-serif;}
 /* Group selector, sets aside and footer to italic */
 aside, footer { font-style: italic;}
 
-
 /* Sets table, (t)able (d)ata, (t)able (h)eader to 1px of solid black outline */
 table, td, th {border: 1px solid black}
 
@@ -60,12 +59,7 @@ nav a:hover{
     border: 4px solid darkblue;
     }
 
-
 /* Sets ALL unordered lists, that are nested inside ordered lists, to have square bullet points */
 ol a, ul {
     list-style-type: square;
 }
-
-
-
-
