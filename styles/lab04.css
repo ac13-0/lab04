@@ -33,8 +33,8 @@ h1, h2, h3 { font-family: Arial, sans-serif;}
 aside, footer { font-style: italic;}
 
 
-/* Sets table to 1px of solid black outline */
-table {border: 1px solid black}
+/* Sets table, (t)able (d)ata, (t)able (h)eader to 1px of solid black outline */
+table, td, th {border: 1px solid black}
 
 /* Sets tag #images to text-align centre (CSS uses American spelling unfortunately) */
 #images {
@@ -46,3 +46,6 @@ table {border: 1px solid black}
     color:darkorange;
     font-weight: bold;
     }
+
+
+    
