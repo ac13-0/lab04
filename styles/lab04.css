@@ -6,4 +6,17 @@ last modified: 27/03/2025
 description: Styles for lab04.html
 */
 
+/* Sets ALL elements to Calibri font, without serifs*/
+* {font-family: calibri, sans-serif;}
+
+/* Sets ALL elements to #2F4F4F color (except specified ones like the one below) */
+* {color: #2F4F4F;}
+
+/* Sets all <h1> to purple, fontsize 2em, and bold */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 
