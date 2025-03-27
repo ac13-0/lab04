@@ -23,7 +23,7 @@ h1 {
 h2 {
     color:rgb(0,128,128); 
     font-size:1.5em;
-    font-size: bold;
+    font-weight: bold;
     }
 
 /* Group selector, sets <h1>, <h2>, <h3> to arial font, sans-serif if arial not available */
