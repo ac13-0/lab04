@@ -17,14 +17,14 @@ h1 {
     color: purple;
     font-size: 2em;
     font-weight: bold;
-}
+    }
 
 /* Sets all <h2> to rgb(0,128,128), 1.5x standard width and bold */
 h2 {
     color:rgb(0,128,128); 
     font-size:1.5em;
     font-size: bold;
-}
+    }
 
 /* Group selector, sets <h1>, <h2>, <h3> to arial font, sans-serif if arial not available */
 h1, h2, h3 { font-family: Arial, sans-serif;}
@@ -35,3 +35,14 @@ aside, footer { font-style: italic;}
 
 /* Sets table to 1px of solid black outline */
 table {border: 1px solid black}
+
+/* Sets tag #images to text-align centre (CSS uses American spelling unfortunately) */
+#images {
+        text-align: center;
+    }
+
+/* Sets all special characters to darkorange and bold */
+.special {
+    color:darkorange;
+    font-weight: bold;
+    }
