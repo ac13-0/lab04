@@ -6,17 +6,32 @@ last modified: 27/03/2025
 description: Styles for lab04.html
 */
 
-/* Sets ALL elements to Calibri font, without serifs*/
+/* Sets ALL elements to calibri font, sans-serif if calibri is not available */
 * {font-family: calibri, sans-serif;}
 
-/* Sets ALL elements to #2F4F4F color (except specified ones like the one below) */
+/* Sets ALL elements to #2F4F4F color */
 * {color: #2F4F4F;}
 
-/* Sets all <h1> to purple, fontsize 2em, and bold */
+/* Sets all <h1> to purple, 2x standard width and bold. Overrides more general selectors (like above) */
 h1 {
     color: purple;
     font-size: 2em;
     font-weight: bold;
 }
 
+/* Sets all <h2> to rgb(0,128,128), 1.5x standard width and bold */
+h2 {
+    color:rgb(0,128,128); 
+    font-size:1.5em;
+    font-size: bold;
+}
 
+/* Group selector, sets <h1>, <h2>, <h3> to arial font, sans-serif if arial not available */
+h1, h2, h3 { font-family: Arial, sans-serif;}
+
+/* Group selector, sets aside and footer to italic */
+aside, footer { font-style: italic;}
+
+
+/* Sets table to 1px of solid black outline */
+table {border: 1px solid black}
